@@ -8,8 +8,9 @@ body{
     linear-gradient(to right, #ccc7b2 1px,transparent 1px ),
     linear-gradient(to bottom, #ccc7b2 1px, transparent 1px);*/
     font-family: 'Roboto', sans-serif;
-    background-image: url("assets/background/4008017.jpg");
-    background-size: 40%;
+    background-image: url("assets/background/plus2.png");
+    
+    background-size: 13%;
     background-attachment: fixed;
     background: linear-gradient(#6d5151);
     position: absolute;
@@ -35,10 +36,10 @@ header{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    padding: 30px 10%;
+    padding: 10px 10%;
 }
 header h1{
-    font-size: 50px;
+    font-size: 20px;
     
     display: flex;
     position:relative;
@@ -51,7 +52,7 @@ nav{
 
 
 }
-ul{
+nav ul{
     position: relative;
     display: flex;
     gap: 4rem 4rem;
@@ -67,7 +68,7 @@ a{
     font-size: 20px;
     
 }
-li {
+nav li{
     margin:auto;
     position: relative;
     display: flex;
@@ -78,13 +79,19 @@ li {
    
 }
 
+li{
+    line-height: 25px;
+    list-style-type: none;
+    text-decoration: none;
+}
 
 .main-container{
     
     
-    width: 50%;
+    width: 60%;
     
     margin: auto;
+    
     
 }
 section{
@@ -96,15 +103,31 @@ section{
     padding: .5%;
     padding-left: 5%;
     background-color:#b8ad95;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: .7rem .7rem rgb(78, 77, 65);
+    
+    
     
     
 }
 
 
+
 .text{
-    background-color:rgb(218, 201, 179);
+    /* background-color:rgb(218, 201, 179); */
     padding: 2%;
     border-radius: 20px;
+    font-size: 120%;
+    line-height: 160%;
+    font-weight:900;
+
+}
+
+.txt-intro{
+    text-align: start;
+}
+
+#sect-intro{
+    text-align: center;
     
 }
