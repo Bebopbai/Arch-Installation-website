@@ -8,11 +8,11 @@ body{
     linear-gradient(to right, #ccc7b2 1px,transparent 1px ),
     linear-gradient(to bottom, #ccc7b2 1px, transparent 1px);*/
     font-family: 'Roboto', sans-serif;
-    background-image: url("assets/background/squares.png");
+    background-image: url("assets/background/4008017.jpg");
     
-    background-size: 13%;
+    background-size: 15%;
     background-attachment: fixed;
-    background: linear-gradient(#6d5151);
+    
     
     margin: 0%;
     padding: 0%;
@@ -20,6 +20,10 @@ body{
     overflow-x: 0%;
     
     
+}
+
+.none{
+    margin: 0%;
 }
 /*body::before {
     
@@ -102,8 +106,8 @@ section{
 .sub-title{
     padding: 2%;
     padding-left: 5%;
-    
-    background-color:#b8ad95;
+    color: white;
+    background-color:#2D4356;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     /* box-shadow: .7rem .7rem rgb(78, 77, 65); */
@@ -113,15 +117,19 @@ section{
     
 }
 
-
+.sub-heading{
+    color: white;
+    font-size: 100%;
+    font-weight: 500;
+}
 
 .link-container{
-    background-color:rgb(218, 201, 179); 
+    background-color:#435B66; 
     padding: 2%;
     
     font-size: 120%;
-    line-height: 200%;
-    font-weight:900;
+    line-height: 250%;
+    
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 
@@ -129,6 +137,9 @@ section{
 
 .txt-intro{
     text-align: start;
+ 
+    line-height: 130%;
+    font-weight: bold;
 }
 
 
@@ -140,3 +151,50 @@ section{
     text-align: center;
 
 }
+
+
+.guide-links{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    display: flex;
+    font-size: 85%;
+    transition: 0.2s;
+    font-weight: 100;
+    gap: 1.5rem;
+    justify-content: left;
+    padding-left: 1%;
+}
+.guide-links:hover{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #566f7a;
+    transition: 0.3s;
+    border-radius: 5px;
+    gap: 1.3rem;
+    color: #EAB2A0;
+    padding-left: 1%;
+    .guide-icon{
+        filter: invert(99%) sepia(0%) saturate(2062%) hue-rotate(37deg) brightness(113%) contrast(81%);
+    }
+    
+}
+
+
+
+
+
+.guide-icon{
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    color: #2D4356;
+    filter: invert(82%) sepia(1%) saturate(8%) hue-rotate(333deg) brightness(93%) contrast(102%);
+    
+}
+
+
+
+
+
+
