@@ -8,12 +8,12 @@ body{
     linear-gradient(to right, #ccc7b2 1px,transparent 1px ),
     linear-gradient(to bottom, #ccc7b2 1px, transparent 1px);*/
     font-family: 'Roboto', sans-serif;
-    background-image: url("assets/background/plus2.png");
+    background-image: url("assets/background/squares.png");
     
     background-size: 13%;
     background-attachment: fixed;
     background: linear-gradient(#6d5151);
-    position: absolute;
+    
     margin: 0%;
     padding: 0%;
     overflow-y: 0%;
@@ -21,7 +21,7 @@ body{
     
     
 }
-body::before {
+/*body::before {
     
     content: "";
     position: absolute;
@@ -31,7 +31,7 @@ body::before {
     left: 0px;
     background-color: rgba(41, 41, 40, 0.2);
     
-}
+}*/
 header{
     display: flex;
     text-align: center;
@@ -39,7 +39,7 @@ header{
     padding: 10px 10%;
 }
 header h1{
-    font-size: 20px;
+    /* font-size: 20px; */
     
     display: flex;
     position:relative;
@@ -88,7 +88,7 @@ li{
 .main-container{
     
     
-    width: 60%;
+    width: 50%;
     
     margin: auto;
     
@@ -100,26 +100,30 @@ section{
     
 }
 .sub-title{
-    padding: .5%;
+    padding: 2%;
     padding-left: 5%;
+    
     background-color:#b8ad95;
-    border-radius: 5px;
-    box-shadow: .7rem .7rem rgb(78, 77, 65);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* box-shadow: .7rem .7rem rgb(78, 77, 65); */
     
-    
+    margin: 0px;
     
     
 }
 
 
 
-.text{
-    /* background-color:rgb(218, 201, 179); */
+.link-container{
+    background-color:rgb(218, 201, 179); 
     padding: 2%;
-    border-radius: 20px;
+    
     font-size: 120%;
-    line-height: 160%;
+    line-height: 200%;
     font-weight:900;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 
 }
 
@@ -127,7 +131,12 @@ section{
     text-align: start;
 }
 
+
+
+
+
+
 #sect-intro{
     text-align: center;
-    
+
 }
