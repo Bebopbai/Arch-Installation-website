@@ -290,9 +290,11 @@ footer{
     margin: auto;
     width: min(90%, 75rem);
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    background-color: #EAB2A0;
     overflow: hidden;
     gap: 2em;
+    padding: 5%;
     
     border-radius: 10px;
     
@@ -389,19 +391,16 @@ footer{
 }
 
 
+/* #################################### @MEDIA ############################## */
 
-
-@media (max-width: 700px){
-    .footer-grid-container-4{
-        display:flex;
-        position: relative;
-    }
+@media (max-width: 800px){
+    
     .footer-cf-list{
         display: flex;
     }
 
     .guide-links p {
-        font-size: small;
+        font-size: medium;
     }
     .guide-icon{
         width: 7%;
@@ -409,9 +408,10 @@ footer{
         padding: 5% 0;
     }
     .check-mark-icon{
-        width: 7%;
+        width: 5%;
         height: fit-content;
         padding: 5% 0;
+        padding-right: 3%;
     }
 
     .main-container{
@@ -422,4 +422,69 @@ footer{
         
         
     }
+
+    .footer-grid-container{
+       
+        width: 100%;
+        display: grid;
+        width: min(90%, 75rem);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5vh;
+        background-color: #EAB2A0;
+        padding: 3%;
+        border-radius: 10px;
+    
+    }
+
+    .footer-cf-list h3 {
+        margin: 0;
+    }
+    
+    .footer-cf-list li {
+        margin: 0;
+        padding: 0px;
+    }
+    .footer-ul{
+        
+        margin-top: 0%;
+        
+        padding:0%;
+    }
+
+    .footer-cf-list{
+        display: block;
+    }
 }   
+
+
+
+@media screen and (max-width: 580px) {
+    .footer-grid-container{
+       
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    
+    }
+
+    
+    .guide-links p {
+        font-size: small;
+    }
+    .guide-icon{
+        width: 7%;
+        height: fit-content;
+        padding: 5% 0;
+        
+    }
+    .check-mark-icon{
+        width: 5%;
+        height: fit-content;
+        padding: 5% 0;
+        padding-right: 3%;
+    }
+
+   
+
+    
+}
