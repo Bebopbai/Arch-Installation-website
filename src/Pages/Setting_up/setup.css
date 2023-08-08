@@ -17,11 +17,12 @@ body{
     
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
 .none{
     margin: 0%;
+    display: flex;
+    white-space: nowrap;
+    align-self: center;
 }
 /*body::before {
     
@@ -34,7 +35,9 @@ html{
     background-color: rgba(41, 41, 40, 0.2);
     
 }*/
-
+html{
+    scroll-behavior: smooth;
+}
 .logo_icon{
     width: 40px;
     height: 40px;
@@ -154,9 +157,16 @@ li{
 
 
 }
-
-img{
+.ci-example{
     margin-top: 6vh;
+    display: flex;
+    width: 100vh;
+    height: 50vh;
+    content: '';
+    flex: content;
+}
+img{
+    
     display: flex;
     width: 80px;
     height: 80px;
@@ -185,15 +195,7 @@ section{
     font-weight: 700;
     font-size: large;
 }
-.guide-icon{
-    width: 30px;
-    height: 30px;
-    padding-top: 7px;
-    color: #2D4356;
-    filter: invert(82%) sepia(1%) saturate(8%) hue-rotate(333deg) brightness(93%) contrast(102%);
-    transition: 0.3s;
-    
-}
+
 .content-container a{
     font-size:1.1rem;
 }
@@ -251,4 +253,359 @@ li{
 
 .sub-header h1{
     margin-top: 5rem;
+}
+.guide-icon{
+    width: 30px;
+    height: 30px;
+    
+    color: #2D4356;
+    filter: invert(82%) sepia(1%) saturate(8%) hue-rotate(333deg) brightness(93%) contrast(102%);
+    transition: 0.3s;
+    
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.option-bg-container{
+    background-color: #4C6773;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.option-container{
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+    margin-top: 0;
+    border-radius: 30px;
+    margin-bottom: 0;
+    
+    
+}
+
+.m-c1{
+    display: flex;
+    padding: 2%;
+    margin: 2%;
+    padding-right: 25vh;
+    padding-left: 25vh;
+    border-radius: 25px;
+    background-color: #435B66;
+    
+}
+.menu-content{
+    display: flex;
+    
+    gap: 5rem;
+    justify-content: center;
+}
+
+
+.menu-content a{
+    display: flex;
+    
+    padding: 1%;
+    border-radius: 10px;
+    
+}
+
+.option-links{
+    display: flex;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    
+    display: flex;
+    font-size: 85%;
+    transition: 0.2s;
+    font-weight: 100;
+    gap: 1.5rem;
+    justify-content: left;
+    padding-left: 1%;
+    
+    
+}
+.one {
+    
+    border: 2px;
+    border-style: groove;
+    border-radius: 15px;
+    padding: 10%;
+    
+}
+.three{
+    border: 2px;
+    border-style: groove;
+    border-radius: 15px;
+    padding: 10%;
+    
+}
+
+.two{
+    background-color: #EAB2A0;
+    padding: 10%;
+    border-radius: 15px;
+}
+
+.p-two{
+    color: black;
+}
+
+footer{
+    
+    width: 60%;
+    margin: auto;
+    
+    
+}
+
+
+
+.footer-container{
+    background-color: #2D4356;
+    height: 50%;
+    width: auto;
+    
+    
+    
+
+}
+
+
+.footer-content{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    
+    
+    
+}
+.footer-content a {
+    margin: 0;
+    font-size: medium;
+    display: flex;
+}
+
+.footer-content p{
+    margin: 0;
+    
+}
+.footer-content a{
+    color: white;
+    
+}
+.footer-grid-container{
+    margin: auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    background-color: #2D4356;
+    overflow: hidden;
+    gap: 2em;
+    padding: 5%;
+    
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+
+.footer-grid-container-4{
+    margin: auto;
+    
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5vh;
+    background-color: #EAB2A0;
+    padding: 3%;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.check-mark-icon{
+    width: 25px;
+    height: 25px;
+    padding-top: 7px;
+    color: #2D4356;
+    filter: invert(82%) sepia(1%) saturate(8%) hue-rotate(333deg) brightness(93%) contrast(102%);
+    transition: 0.3s;
+    display: flexbox;
+    float: right;
+    margin-left: auto;
+    padding: 1%;
+
+}
+
+.footer-content-1{
+    display: flex;
+    position: relative;
+    
+}
+
+.footer-cfi p{
+    padding-top: 5%;
+    color: white;
+}
+
+.footer-content-2{
+    display: flex;
+    position: relative;
+}
+
+.footer-cf-list{
+    flex-grow: 50;
+    
+    padding: 10%;
+    border-radius: 20px;
+}
+
+.footer-cf-list h3 {
+    margin: 0;
+}
+
+.footer-cf-list li {
+    margin: 0;
+    padding: 0;
+}
+.footer-ul{
+    margin-top: 20%;
+    
+    padding:0%;
+}
+
+.footer-li{
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.8rem;
+}
+
+
+.footer-content-3{
+    display: flex;
+    position: relative;
+
+}
+
+.footer-content-4{
+    display: flex;
+    position: relative;
+}
+
+.footer-content-5{
+    display: flex;
+    position: relative;
+}
+
+
+/* #################################### @MEDIA ############################## */
+@media(max-width: 1080px){
+    .content-container {
+        display: block;
+    }
+}
+@media (max-width: 800px){
+    .content-container{
+        display: none;
+    }
+    .shortcut-menu-container{
+        display: none;
+    }
+    .footer-cf-list{
+        display: flex;
+    }
+
+    .guide-links p {
+        font-size: medium;
+    }
+    .guide-icon{
+        width: 7%;
+        height: fit-content;
+        padding: 5% 0;
+    }
+    .check-mark-icon{
+        width: 5%;
+        height: fit-content;
+        padding: 5% 0;
+        padding-right: 3%;
+    }
+
+    .main-container{
+    
+    
+        width: 80%;
+        margin: auto;
+        
+        
+    }
+
+    .footer-grid-container{
+       
+        width: 100%;
+        display: grid;
+        width: min(90%, 75rem);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5vh;
+        background-color: #EAB2A0;
+        padding: 3%;
+        border-radius: 10px;
+    
+    }
+
+    .footer-cf-list h3 {
+        margin: 0;
+    }
+    
+    .footer-cf-list li {
+        margin: 0;
+        padding: 0px;
+    }
+    .footer-ul{
+        
+        margin-top: 0%;
+        
+        padding:0%;
+    }
+
+    .footer-cf-list{
+        display: block;
+    }
+}   
+
+
+
+@media screen and (max-width: 580px) {
+    .footer-grid-container{
+       
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    
+    }
+
+    
+    .guide-links p {
+        font-size: small;
+    }
+    .guide-icon{
+        width: 7%;
+        height: fit-content;
+        padding: 5% 0;
+        
+    }
+    .check-mark-icon{
+        width: 5%;
+        height: fit-content;
+        padding: 5% 0;
+        padding-right: 3%;
+    }
+
+   
+
+    
 }
