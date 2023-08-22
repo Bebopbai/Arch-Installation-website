@@ -49,6 +49,7 @@ header{
     text-align: center;
     justify-content: space-between;
     padding:0px 1%;
+    
     background-color: #2D4356;
 }
 header h1{
@@ -212,12 +213,12 @@ section{
     color: #EAB2A0;
     padding-left: 1%;
     .guide-icon{
-        filter: invert(99%) sepia(0%) saturate(2062%) hue-rotate(37deg) brightness(113%) contrast(81%);
+        filter: invert(57%) sepia(54%) saturate(6%) hue-rotate(328deg) brightness(89%) contrast(93%);
         transition: 0.3s;
     }
     .check-mark-icon{
         
-        filter: invert(77%) sepia(15%) saturate(752%) hue-rotate(326deg) brightness(99%) contrast(85%);
+        filter: invert(57%) sepia(54%) saturate(6%) hue-rotate(328deg) brightness(89%) contrast(93%);
         transition: 0.3s;
 
     }
@@ -233,7 +234,7 @@ section{
     height: 30px;
     padding-top: 7px;
     color: #2D4356;
-    filter: invert(82%) sepia(1%) saturate(8%) hue-rotate(333deg) brightness(93%) contrast(102%);
+    filter: invert(57%) sepia(54%) saturate(6%) hue-rotate(328deg) brightness(89%) contrast(93%);
     transition: 0.3s;
     
 }
@@ -324,7 +325,7 @@ footer{
     height: 25px;
     padding-top: 7px;
     color: #2D4356;
-    filter: invert(82%) sepia(1%) saturate(8%) hue-rotate(333deg) brightness(93%) contrast(102%);
+    filter: invert(57%) sepia(54%) saturate(6%) hue-rotate(328deg) brightness(89%) contrast(93%);
     transition: 0.3s;
     display: flexbox;
     float: right;
