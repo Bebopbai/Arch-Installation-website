@@ -1,0 +1,9 @@
+index.html{
+    changed checkmark color to darker gray
+    changed guide icon color to darker gray
+}
+
+
+setup.html{
+    added example images
+}
