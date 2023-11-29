@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>asdasdas</title>
-    <link rel="stylesheet" href="/Arch-Installation-website/Pages/general.css">
-    
+    <title>Document</title>
+    <link rel="stylesheet" href="/Arch-Installation-website/Pages/general_page.css">
 <body>
     
         <header>
@@ -37,29 +36,32 @@
 
         <div class="main-content-grid">
             <div class="main-content-container">
-                
+
                 <div class="sub-header">
-                    <img class="sub-header-img" src="/Arch-Installation-website/assets/Background/technology.png" alt="">
-                    <h1>requirements</h1>
+                    <img class="sub-header-img" src="/Arch-Installation-website/assets/Background/internet_icon.png" alt="">
+                    <h1>Connecting to the Internet</h1>
                 </div>
                 <section id="section-one">
-                    <h1>Download The Arch Installation Image</h1>
+                    <h1>Boot into USB drive</h1>
                     <span>  
                         <p>
-                            To download Arch Linux, head to <a class="links" title="Download Page" target="_blank" href="https://archlinux.org/download/">https://archlinux.org/download/</a> and download the latest release (2023.08.01 as of this writing). The ISO should be around 870 megabytes in size.
-
+                            Assuming that you have a bootable USB drive and your computer is configured properly, you'll have to boot from the USB drive. The process of booting from a USB drive differs from machine to machine.
+                            <br><br>
+                            On my machine, hitting the F12 key during boot takes me to the list of bootable devices. From there I can pick my bootable USB drive. You may already know the appropriate technique for your computer or you may have to research a bit.
+                            
+                            Once you've managed to land on the list of connected bootable devices, select your USB drive to boot from and the following menu should show up:
                         </p>  
                         <div class="img-wrapper">
-                            <img class="img-example" src="/Arch-Installation-website/assets/Background/iso_img.png" alt="">
+                            
+                            <img loading="lazy" class="img-example" src="/Arch-Installation-website/assets/Background/ci-example-1.png" alt="">
                         </div>
                         
                         <br><br>
                         <p>
-                            Once downloaded, you'll need to put it in your USB. You can use  <a class="links" title="Download Page" target="_blank" href="https://rufus.ie/en/">Rufus</a>  to do that. Download and install the application on your system. Now connect your USB drive and open the application:
-
+                            Choose the first one from the list and wait until the Arch installer finishes booting up. Once fully booted up, you'll see something like this:
                         </p>
                         <div class="img-wrapper">
-                            <img loading="lazy" class="img-example" src="/Arch-Installation-website/assets/Background/Rufus-main-window-930x600.png" alt="">
+                            <img loading="lazy" class="img-example" src="/Arch-Installation-website/assets/Background/ci-example-2.png" alt="">
                         </div>
                         <br>
                     </span>
@@ -68,25 +70,43 @@
 
                 </section>
 
-                <!--  SECTIONS 
-                <section id="section-one">
-                    <h1>section 2</h1>
-                    <p>The Odin Project is an open-source community dedicated to providing the best information sources to take you from zero to a full-stack developer. More information can be found at The Odin Project’s about page.
+                
+                <section id="section-two">
+                    <h1>Entering iwctl</h1>
+                    <span>  
+                        <p>
+                            The live environment comes with the iwd or iNet wireless daemon package. You can use this package to connect to a nearby wireless network.
 
-                        In this unit, we’ll learn about how the web works and start thinking about the basics of computer and web programming.
-                        <br><br>
-                        Each of the following sections and lessons represents essential baseline knowledge. Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.
+                            To begin with, execute the following command:  
+                            <div class="code-text-wrapper">
+                                <p class="code-text-content">root@archiso ~ # </p>
+                                <p class="code-text-content code-text-2">iwctl</p>
+                            </div>                        
+                            <br><br>
+                            
+                        </p>  
+
+
+                        <p>
+                            This will start an interactive prompt as follows:
+                        </p>
+                        <div class="img-wrapper">
+                            <img loading="lazy" class="img-example" src="/Arch-Installation-website/assets/Background/ci-example-3.png" alt="">
+                        </div>
                         
-                        We will start by getting familiar with the internet and your own computer. Next, we’ll work on setting up a development environment and learning about Git and GitHub. Then, we’ll go over the basics of front-end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray that covers the basic concepts of back-end technologies.
                         <br><br>
-                        By the end of this unit, you should not only understand how the web works but also be able to identify and differentiate between all the technologies that you will use to build your own web applications. You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
-                        <br><br>
-                        This section intentionally covers a very broad range of topics. It’s silly to go diving straight into server-side programming without having a context for what it is and why it’s useful (and why you should learn it!).</p>
-
+                        <p>
+                            Choose the first one from the list and wait until the Arch installer finishes booting up. Once fully booted up, you'll see something like this:
+                        </p>
+                        <div class="img-wrapper">
+                            <img loading="lazy" class="img-example" src="/Arch-Installation-website/assets/Background/ci-example-2.png" alt="">
+                        </div>
+                        <br>
+                    </span>
 
 
                 </section>
-                -->
+                
 
 
             </div>
@@ -102,32 +122,25 @@
 
                         <li>
                             <a  href="#section-one">
-                                text
+                                Download Image
                             </a>
                         </li>
+
                         <li>
                             <a  href="#section-one">
-                                text
+                                Download Image
                             </a>
                         </li>
+
                         <li>
                             <a  href="#section-one">
-                                text
+                                Download Image
                             </a>
                         </li>
+
                         <li>
                             <a  href="#section-one">
-                                text
-                            </a>
-                        </li>
-                        <li>
-                            <a  href="#section-one">
-                                text
-                            </a>
-                        </li>
-                        <li>
-                            <a  href="#section-one">
-                                text
+                                Download Image
                             </a>
                         </li>
 
@@ -173,18 +186,18 @@
                     <div class="menu-content">
                         <a  href="/Arch-Installation-website/index.html">
                             <div class="option-links one">
-                                <img class="guide-icon" src="/Arch-Installation-website/assets/Background/guide_icon_2.png" alt="guide-icon">
+                                <img loading="lazy" class="guide-icon" src="/Arch-Installation-website/assets/Background/guide_icon_2.png" alt="guide-icon">
                                 <p class="none">View Guide</p>
                             </div>
                         </a>
-                        <a  id="two">
+                        <a id="ch-2">
                             <div onclick="btnclicked('.ch-1')" class="option-links two ch-1">
                                 <p class="none p-two">Mark Complete</p>
                             </div>
                         </a>
-                        <a href="/Arch-Installation-website/Pages/Setting_up/Configure bios/setup.html" >
+                        <a href="/Arch-Installation-website/Pages/Installing_arch_linux/connecting_to_internet/setup.html">
                             <div class="option-links three">
-                                <img class="guide-icon" src="/Arch-Installation-website/assets/Background/next-button-icon.png" alt="guide-icon">
+                                <img loading="lazy" class="guide-icon" src="/Arch-Installation-website/assets/Background/next-button-icon.png" alt="guide-icon">
                                 <p class="none">Next Step</p>
                             </div>
                         </a>
@@ -265,6 +278,7 @@
         
     
 </footer>
+
 <script src="/Arch-Installation-website/Pages/btnfunction.js"></script>
 </body>
 </html>
