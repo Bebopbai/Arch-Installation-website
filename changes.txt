@@ -7,3 +7,15 @@ index.html{
 setup.html{
     added example images
 }
+
+
+{added folder structure to other pages}
+
+{added html docu for page}
+
+{changed style css for each page to one general css that is by all pages}
+
+{added button color change function }
+
+
+{in progress of making "complete" button only allowed on its own webpage}
