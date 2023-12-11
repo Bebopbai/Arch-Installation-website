@@ -1,4 +1,4 @@
-# Arch-Installation-website
+# Arch Linux Installation website
 
 Welcome to the Arch Linux Installation Guide repository! This minimalist guide is designed to assist both Linux enthusiasts and beginners in smoothly installing Arch Linux on their systems. Say goodbye to graphical installers and hello to the elegance of the command line.
 
@@ -22,7 +22,7 @@ Welcome to the Arch Linux Installation Guide repository! This minimalist guide i
 
 👩‍💻 Usage:
 
-+ Clone this repository to access the guide locally.
++ Head to the website to access the guide.
 + Follow the step-by-step instructions in the markdown files.
 + Customize your Arch Linux environment based on your preferences.
 
